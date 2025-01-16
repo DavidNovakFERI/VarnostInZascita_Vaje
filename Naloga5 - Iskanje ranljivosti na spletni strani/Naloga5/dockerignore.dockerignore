@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+.venv
+.venv/
+venv/
+venv
+.git
+.gitignore
+Dockerfile
+*.md

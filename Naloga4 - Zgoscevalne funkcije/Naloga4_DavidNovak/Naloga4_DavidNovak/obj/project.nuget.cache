@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VkSX1aP4uGpjRM5unITMDubI25WbIpn8YKA10yYZtdnPGnpliJgcuZOrFJJoj2neIpTN5MsvW954r3ak90Zf5g==",
+  "success": true,
+  "projectFilePath": "D:\\2LETNIK\\_VarnostInZaščita\\Naloga4 - Zgoscevalne funkcije\\Naloga4_DavidNovak\\Naloga4_DavidNovak\\Naloga4_DavidNovak.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

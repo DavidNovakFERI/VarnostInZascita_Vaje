@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login and Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#vulnerable" data-bs-toggle="tab">Ranljive</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#secure" data-bs-toggle="tab">Varne</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="vulnerable">
+            <h3>Vulnerable Page - SQL Injection</h3>
+            <form action="/vulnerable/search" method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+                Search Username: <input type="text" name="username">
+                <input type="submit" value="Search">
+            </form>
+            {% if users %}
+                <h4>Search Results:</h4>
+                <ul>
+                {% for user in users %}
+                    <li>{{ user.username }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+        <div class="tab-pane container fade" id="secure">
+            <h3>Secure Page</h3>
+            <p>Secure practices described here.</p>
+            {% if user %}
+        <h1>Welcome, {{ user.username }}!</h1>
+        <p>Your role: {{ user.role }}</p>
+    {% else %}
+        <h1>Welcome to the site!</h1>
+    {% endif %}
+        </div>
+    </div>
+
+
+    <h1>User Profile</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Role: {{ user.role }}</p>
+
+</body>
+</html>

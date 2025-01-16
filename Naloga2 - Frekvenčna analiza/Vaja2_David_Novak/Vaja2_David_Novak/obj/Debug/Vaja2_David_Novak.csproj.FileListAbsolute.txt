@@ -1,0 +1,7 @@
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\bin\Debug\Vaja2_David_Novak.exe.config
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\bin\Debug\Vaja2_David_Novak.exe
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\bin\Debug\Vaja2_David_Novak.pdb
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\obj\Debug\Vaja2_David_Novak.csproj.AssemblyReference.cache
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\obj\Debug\Vaja2_David_Novak.csproj.CoreCompileInputs.cache
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\obj\Debug\Vaja2_David_Novak.exe
+D:\2LETNIK\_VarnostInZaščita\Naloga2 - Frekvenčna analiza\Vaja2_David_Novak\Vaja2_David_Novak\obj\Debug\Vaja2_David_Novak.pdb

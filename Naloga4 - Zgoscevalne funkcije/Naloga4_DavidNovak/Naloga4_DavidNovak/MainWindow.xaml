@@ -1,0 +1,38 @@
+﻿<Window x:Class="Naloga4_DavidNovak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Vrstica 0 -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Stolpec 0 -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Gumb za izbiro prve datoteke -->
+        <Button Content="Izberi prvo datoteko" Click="SelectFirstFile_Click" Grid.Row="0" Grid.Column="0" Margin="10"/>
+        <!-- TextBox za prikaz poti do prve datoteke -->
+        <TextBox x:Name="FirstFilePath" Grid.Row="1" Grid.Column="0" Margin="10" TextWrapping="Wrap"/>
+        <!-- Gumb za izbiro druge datoteke -->
+        <Button Content="Izberi drugo datoteko" Click="SelectSecondFile_Click" Grid.Row="2" Grid.Column="0" Margin="10"/>
+        <!-- TextBox za prikaz poti do druge datoteke -->
+        <TextBox x:Name="SecondFilePath" Grid.Row="3" Grid.Column="0" Margin="10" TextWrapping="Wrap"/>
+        <!-- ComboBox za izbiro zgoščevalne funkcije -->
+        <ComboBox x:Name="HashAlgorithmComboBox" Grid.Row="3" Grid.Column="0" Margin="199,10,-220,10">
+            <ComboBoxItem Content="MD5"/>
+            <ComboBoxItem Content="SHA1"/>
+            <ComboBoxItem Content="SHA256"/>
+            <ComboBoxItem Content="bCrypt"/>
+        </ComboBox>
+        <!-- Gumb za preverjanje integritete -->
+        <Button Content="Preveri integriteto" Click="CheckIntegrity_Click" Grid.Row="5" Grid.Column="0" Margin="10"/>
+
+        <Button Content="Zgoščevanje poljubne datoteke" Click="SelectFile_Click" Grid.Row="3" Grid.Column="0" Margin="420,10,-464,10"/>
+    </Grid>
+</Window>
